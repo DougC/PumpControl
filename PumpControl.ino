@@ -1,7 +1,9 @@
 
-
+// Pin 6 controls relay 2
 const unsigned int RELAY_PIN = 6;
 const unsigned int CONTROL_PIN = 12;
+
+// BAUD rate for the serial interface
 const unsigned int BAUD_RATE = 9600;
 
 // This is the time at which the pump was last switched on
